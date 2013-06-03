@@ -1,3 +1,3 @@
 mysql:
-  - script: select * from users;
-  - script: show tables; 
+  - script: select count(*)=0 from schema_migrations
+
