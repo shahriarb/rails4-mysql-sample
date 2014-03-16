@@ -39,7 +39,7 @@ production:
   reconnect: false
   database: mysql_production
   username: root
-  password: f-b$f8769ca8e76f200621589c4b71dcd2!
+  password: f-bf8769ca8e76f200621589c4b71dcd2!
   pool: 5
   host: localhost
   port: 3306
