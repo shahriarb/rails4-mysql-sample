@@ -38,7 +38,7 @@ production:
   encoding: utf8
   reconnect: false
   database: <%= ENV['MYSQL_DATABASE'] %>    
-  username: root
+  username: <%= ENV['MYSQL_USERNAME'] || 'root' %>
   password: f-bf8769ca8e76f200621589c4b71dcd2!
   pool: 5
   host: localhost
