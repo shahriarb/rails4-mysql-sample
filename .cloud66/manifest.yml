@@ -1,0 +1,4 @@
+production:
+    mysql:
+        configuration:
+            version: 5.6
